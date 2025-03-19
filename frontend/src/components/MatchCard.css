@@ -1,0 +1,12 @@
+.match-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .match-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-button:hover {
+    background-color: #e65c00;
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "teams": [
+    { "name": "Mumbai Indians", "city": "Mumbai" },
+    { "name": "Chennai Super Kings", "city": "Chennai" },
+    { "name": "Royal Challengers Bengaluru", "city": "Bengaluru" },
+    { "name": "Kolkata Knight Riders", "city": "Kolkata" },
+    { "name": "Delhi Capitals", "city": "Delhi" },
+    { "name": "Sunrisers Hyderabad", "city": "Hyderabad" },
+    { "name": "Rajasthan Royals", "city": "Jaipur" },
+    { "name": "Punjab Kings", "city": "New Chandigarh" },
+    { "name": "Gujarat Titans", "city": "Ahmedabad" },
+    { "name": "Lucknow Super Giants", "city": "Lucknow" }
+  ]
+}

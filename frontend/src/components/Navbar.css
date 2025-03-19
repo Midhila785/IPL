@@ -1,0 +1,89 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space items apart */
+  align-items: center;
+  padding: 15px 20px;
+  background: #1a3e6c; /* Classy black background */
+  color: white;
+  height: 35px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #74f5c8; /* Gold hover effect */
+}
+
+/* Authentication Links */
+.auth-links {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+/* Buttons */
+.logout-btn,
+.login,
+.signup {
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-btn {
+  background: #ebb28c; /* Deep Red */
+  color: rgb(20, 20, 20);
+  border: none;
+}
+
+.login {
+  background: #9bc0ed ; /* Dark Blue */
+  color: rgb(23, 3, 3);
+}
+
+.signup {
+  background: #9bc0ed; /* Light Blue */
+  color: rgb(24, 3, 3);
+}
+
+.login:hover, .signup:hover, .logout-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}

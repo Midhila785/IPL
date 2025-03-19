@@ -1,0 +1,54 @@
+/* Team.css */
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 201vh;
+  min-height: 100vh;
+  background: url("https://documents.iplt20.com/bcci/articles/1742037271_IPL_Website.png") no-repeat center center/cover;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #fff; /* Changed to white for better visibility */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Transparent container for team list */
+.ipl-teams-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.3); /* More transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+/* Individual team cards */
+.team-item {
+  background: rgba(255, 255, 255, 0.7); /* Light transparency */
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.team-item:hover {
+  transform: scale(1.05);
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
